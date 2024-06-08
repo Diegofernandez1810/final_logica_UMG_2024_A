@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final logica</title>
+<body>
+
+
+  <p id="demo">Final logica</p>
+  
+    <input type="number" id="numero1">
+    <input type="number" id="numero2">
+    <input type="number" id="numero3">
+    <button onclick="ponerBoton1()">Boton1</button>
+    <button onclick="ponerBoton2()">Boton2</button>
+   
+    
+    <script>
+        function ponerBoton1() {
+            var nuevoElemento = document.createElement("p");
+            var number = addEventListener("numero1" + "numero3");
+            var texto = document.createTextNode(numero1 + numero3);
+            nuevoElemento.appendChild(texto);
+            document.body.appendChild(nuevoElemento);
+        }
+        function ponerBoton2() {
+            document.getElementById("demo").className = "ponerBoton2";
+            var number = addEventListener("numero1" + "numero2" + "numero3");
+            var texto = document.createTextNode(numero1 + numero3);
+            nuevoElemento.appendChild(texto);
+            document.body.appendChild(nuevoElemento);
+            
+        }
+    </script>
+</body>
+</html>
